@@ -9,7 +9,7 @@ int main() {
     for(char i:s){
         if(islower(i)){
         flag_l|=(1<<(i-'a'));}
-        if(isupper(i)){
+        else if(isupper(i)){
         flag_u|=(1<<(i-'A'));}
     }
     if((flag_u==(1<<26)-1)&&(flag_u==flag_l)){
