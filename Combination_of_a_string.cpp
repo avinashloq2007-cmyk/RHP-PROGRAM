@@ -15,3 +15,12 @@ for (int j=0;j<s.length();j++){
 cout<<k++<<". "<<p<<endl;
     }
 }
+//OUTPUT
+/*Enter a string:CPP
+1. C
+2. P
+3. CP
+4. P
+5. CP
+6. PP
+7. CPP*/
