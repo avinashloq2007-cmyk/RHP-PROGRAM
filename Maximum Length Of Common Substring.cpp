@@ -7,7 +7,7 @@ int main() {
     string b;
     cout<<"enter string 1:";
     cin>>a;
-    cout<<"enter string 3:";
+    cout<<"enter string 2:";
     cin>>b;
     int arr[a.length()+1][b.length()+1];
     for(int i=0;i<b.length()+1;i++){
@@ -51,7 +51,7 @@ for(int i=0;i<=a.length();i++){
 }
 //OUTPUT:
 // enter string 1:evening
-// enter string 3:morning
+// enter string 2:morning
 //     m o r n i n g
 //   0 0 0 0 0 0 0 0
 // e 0 0 0 0 0 0 0 0
